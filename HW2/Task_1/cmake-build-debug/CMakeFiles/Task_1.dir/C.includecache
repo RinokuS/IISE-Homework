@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/GoL.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+pthread.h
+-
+grid.h
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
+tinfo.h
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
+mybarrier.h
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.h
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.h
+pthread.h
+-
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
+grid.h
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
+
