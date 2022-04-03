@@ -3,4 +3,4 @@ project(Task_1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Task_1 main.cpp grid.c GoL.c mybarrier.c mybarrier.h tinfo.c tinfo.h)
+add_executable(Task_1 grid.c main.c barrier.c barrier.h tinfo.c tinfo.h)

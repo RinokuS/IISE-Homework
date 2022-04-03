@@ -3,18 +3,16 @@
 
 CMakeFiles/Task_1.dir/GoL.c.o
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/GoL.c
+ /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
- /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.h
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
+CMakeFiles/Task_1.dir/barrier.c.o
+ /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.c
+ /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h
 CMakeFiles/Task_1.dir/grid.c.o
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.c
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
-CMakeFiles/Task_1.dir/mybarrier.c.o
- /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.c
- /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.h
 CMakeFiles/Task_1.dir/tinfo.c.o
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.c
  /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
-CMakeFiles/Task_1.dir/main.cpp.o
- /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/main.cpp

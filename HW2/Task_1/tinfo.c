@@ -4,7 +4,7 @@
 
 // Allocates memory for a tinfo struct.
 //
-tinfo *initTinfo() {
+tinfo *init_tinfo() {
     tinfo *T = (tinfo *)malloc(sizeof(tinfo));
     T->in = NULL;
     T->out = NULL;

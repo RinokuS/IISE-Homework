@@ -83,19 +83,16 @@
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/GoL.c">
 			<Option target="Task_1"/>
 		</Unit>
+		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.c">
+			<Option target="Task_1"/>
+		</Unit>
+		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h">
+			<Option target="Task_1"/>
+		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.c">
 			<Option target="Task_1"/>
 		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/main.cpp">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.c">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/mybarrier.h">
 			<Option target="Task_1"/>
 		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.c">

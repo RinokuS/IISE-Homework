@@ -170,6 +170,33 @@ GoL.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/GoL.c.s
 .PHONY : GoL.c.s
 
+barrier.o: barrier.c.o
+
+.PHONY : barrier.o
+
+# target to build an object file
+barrier.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/barrier.c.o
+.PHONY : barrier.c.o
+
+barrier.i: barrier.c.i
+
+.PHONY : barrier.i
+
+# target to preprocess a source file
+barrier.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/barrier.c.i
+.PHONY : barrier.c.i
+
+barrier.s: barrier.c.s
+
+.PHONY : barrier.s
+
+# target to generate assembly for a file
+barrier.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/barrier.c.s
+.PHONY : barrier.c.s
+
 grid.o: grid.c.o
 
 .PHONY : grid.o
@@ -196,60 +223,6 @@ grid.s: grid.c.s
 grid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/grid.c.s
 .PHONY : grid.c.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-mybarrier.o: mybarrier.c.o
-
-.PHONY : mybarrier.o
-
-# target to build an object file
-mybarrier.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/mybarrier.c.o
-.PHONY : mybarrier.c.o
-
-mybarrier.i: mybarrier.c.i
-
-.PHONY : mybarrier.i
-
-# target to preprocess a source file
-mybarrier.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/mybarrier.c.i
-.PHONY : mybarrier.c.i
-
-mybarrier.s: mybarrier.c.s
-
-.PHONY : mybarrier.s
-
-# target to generate assembly for a file
-mybarrier.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/mybarrier.c.s
-.PHONY : mybarrier.c.s
 
 tinfo.o: tinfo.c.o
 
@@ -290,15 +263,12 @@ help:
 	@echo "... GoL.o"
 	@echo "... GoL.i"
 	@echo "... GoL.s"
+	@echo "... barrier.o"
+	@echo "... barrier.i"
+	@echo "... barrier.s"
 	@echo "... grid.o"
 	@echo "... grid.i"
 	@echo "... grid.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mybarrier.o"
-	@echo "... mybarrier.i"
-	@echo "... mybarrier.s"
 	@echo "... tinfo.o"
 	@echo "... tinfo.i"
 	@echo "... tinfo.s"

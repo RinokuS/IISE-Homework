@@ -9,10 +9,10 @@ typedef struct {
     int                 threshold;      // number of threads required
     int                 counter;        // current number of threads
     int                 cycle;          // alternate wait cycles (0 or 1)
-} mybarrier;
+} barrier;
 
-void barrier_init (mybarrier *barrier, int count);
-void barrier_destroy (mybarrier *barrier);
-void barrier_wait (mybarrier *barrier);
+void barrier_init (barrier *barrier, int count);
+void barrier_destroy (barrier *barrier);
+void barrier_wait (barrier *barrier);
 
 #endif
