@@ -77,45 +77,30 @@ include CMakeFiles/Task_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Task_2.dir/flags.make
 
-CMakeFiles/Task_2.dir/main.cpp.o: CMakeFiles/Task_2.dir/flags.make
-CMakeFiles/Task_2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task_2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_2.dir/main.cpp.o -c /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.cpp
+CMakeFiles/Task_2.dir/main.c.o: CMakeFiles/Task_2.dir/flags.make
+CMakeFiles/Task_2.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Task_2.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Task_2.dir/main.c.o   -c /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.c
 
-CMakeFiles/Task_2.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.cpp > CMakeFiles/Task_2.dir/main.cpp.i
+CMakeFiles/Task_2.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Task_2.dir/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.c > CMakeFiles/Task_2.dir/main.c.i
 
-CMakeFiles/Task_2.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.cpp -o CMakeFiles/Task_2.dir/main.cpp.s
-
-CMakeFiles/Task_2.dir/m.c.o: CMakeFiles/Task_2.dir/flags.make
-CMakeFiles/Task_2.dir/m.c.o: ../m.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Task_2.dir/m.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Task_2.dir/m.c.o   -c /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/m.c
-
-CMakeFiles/Task_2.dir/m.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Task_2.dir/m.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/m.c > CMakeFiles/Task_2.dir/m.c.i
-
-CMakeFiles/Task_2.dir/m.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Task_2.dir/m.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/m.c -o CMakeFiles/Task_2.dir/m.c.s
+CMakeFiles/Task_2.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Task_2.dir/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.c -o CMakeFiles/Task_2.dir/main.c.s
 
 # Object files for target Task_2
 Task_2_OBJECTS = \
-"CMakeFiles/Task_2.dir/main.cpp.o" \
-"CMakeFiles/Task_2.dir/m.c.o"
+"CMakeFiles/Task_2.dir/main.c.o"
 
 # External object files for target Task_2
 Task_2_EXTERNAL_OBJECTS =
 
-Task_2: CMakeFiles/Task_2.dir/main.cpp.o
-Task_2: CMakeFiles/Task_2.dir/m.c.o
+Task_2: CMakeFiles/Task_2.dir/main.c.o
 Task_2: CMakeFiles/Task_2.dir/build.make
 Task_2: CMakeFiles/Task_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Task_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Task_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

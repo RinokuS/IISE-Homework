@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/m.c">
-			<Option target="Task_2"/>
-		</Unit>
-		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.cpp">
+		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/main.c">
 			<Option target="Task_2"/>
 		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_2/CMakeLists.txt">
