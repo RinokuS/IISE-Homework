@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/GoL.c
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h
+pthread.h
+-
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/main.c
 stdio.h
 -
 stdlib.h
@@ -21,34 +27,6 @@ tinfo.h
 /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
 barrier.h
 /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h
-
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.c
-pthread.h
--
-barrier.h
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h
-
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.h
-pthread.h
--
-
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.c
-stdio.h
--
-stdlib.h
--
-grid.h
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
-
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h
-
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.c
-stdio.h
--
-stdlib.h
--
-tinfo.h
-/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
 
 /Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.h
 grid.h

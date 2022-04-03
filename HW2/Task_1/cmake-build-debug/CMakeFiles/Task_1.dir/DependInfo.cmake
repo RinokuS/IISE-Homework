@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/GoL.c" "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/cmake-build-debug/CMakeFiles/Task_1.dir/GoL.c.o"
   "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.c" "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/cmake-build-debug/CMakeFiles/Task_1.dir/barrier.c.o"
   "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.c" "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/cmake-build-debug/CMakeFiles/Task_1.dir/grid.c.o"
+  "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/main.c" "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/cmake-build-debug/CMakeFiles/Task_1.dir/main.c.o"
   "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.c" "/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/cmake-build-debug/CMakeFiles/Task_1.dir/tinfo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

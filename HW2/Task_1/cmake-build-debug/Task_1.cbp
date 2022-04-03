@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/GoL.c">
-			<Option target="Task_1"/>
-		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/barrier.c">
 			<Option target="Task_1"/>
 		</Unit>
@@ -93,6 +90,9 @@
 			<Option target="Task_1"/>
 		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/grid.h">
+			<Option target="Task_1"/>
+		</Unit>
+		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/main.c">
 			<Option target="Task_1"/>
 		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_1/tinfo.c">

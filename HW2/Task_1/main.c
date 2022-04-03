@@ -65,8 +65,8 @@ void update_grid(grid *x, grid *y, int height, int part) {
     }
 }
 
-void print_grid(grid *G) {
-    printf("Generation: %d.\n", generation);
+void print_grid(grid *G, char *label) {
+    printf("%s\n", label);
 
     for (int i = 0; i < G->rows; i++) {
         for (int j = 0; j < G->cols; j++) {
@@ -83,7 +83,7 @@ void print_grid(grid *G) {
         }
         putchar('\n');
     }
-
+    putchar('\n');
 }
 
 // thread_func is the general function passed to each thread. It is responsible
@@ -144,7 +144,7 @@ int main() {
     } else {
         manual_populate(main);
     }
-    print_grid(main);
+    print_grid(main, "Populated grid at the start of the game: ");
     update_grid(temp, main, main->rows, 0);
     // start our profile session
     clock_gettime(CLOCK_MONOTONIC, &mt1);
@@ -177,7 +177,7 @@ int main() {
 
     barrier_destroy(&barr);
 
-    print_grid(main);
+    print_grid(main, "Final grid: ");
     clock_gettime (CLOCK_MONOTONIC, &mt2);
 
     timestamp = 1000000000 * (mt2.tv_sec - mt1.tv_sec) + (mt2.tv_nsec - mt1.tv_nsec);

@@ -143,33 +143,6 @@ Task_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/build
 .PHONY : Task_1/fast
 
-GoL.o: GoL.c.o
-
-.PHONY : GoL.o
-
-# target to build an object file
-GoL.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/GoL.c.o
-.PHONY : GoL.c.o
-
-GoL.i: GoL.c.i
-
-.PHONY : GoL.i
-
-# target to preprocess a source file
-GoL.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/GoL.c.i
-.PHONY : GoL.c.i
-
-GoL.s: GoL.c.s
-
-.PHONY : GoL.s
-
-# target to generate assembly for a file
-GoL.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/GoL.c.s
-.PHONY : GoL.c.s
-
 barrier.o: barrier.c.o
 
 .PHONY : barrier.o
@@ -224,6 +197,33 @@ grid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/grid.c.s
 .PHONY : grid.c.s
 
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/main.c.s
+.PHONY : main.c.s
+
 tinfo.o: tinfo.c.o
 
 .PHONY : tinfo.o
@@ -260,15 +260,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Task_1"
-	@echo "... GoL.o"
-	@echo "... GoL.i"
-	@echo "... GoL.s"
 	@echo "... barrier.o"
 	@echo "... barrier.i"
 	@echo "... barrier.s"
 	@echo "... grid.o"
 	@echo "... grid.i"
 	@echo "... grid.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... tinfo.o"
 	@echo "... tinfo.i"
 	@echo "... tinfo.s"
