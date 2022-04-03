@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_3/lfstack.h
+atomic
+-
+
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_3/main.cpp
+iostream
+-
+vector
+-
+lfstack.h
+/Users/rinokus/Documents/Projects/IISE-Homework/HW2/Task_3/lfstack.h
+
