@@ -9,8 +9,6 @@
 // Initiate a barrier object
 barrier barr;
 
-int generation = 0;
-
 // This function counts the neighbors of a point in our grid.
 int count_neighbors(grid *G, int x, int y) {
     int i, j, count = 0;
